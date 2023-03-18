@@ -16287,4 +16287,52 @@ ul.blocks-gallery-grid li:before {
     margin-left: -60px;
     border-radius: 100%;
   }
+  .why-choose{
+    background-image: url("../img/section-img/blog/blog-grid-01.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  }
+  .why-choose::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 24, 0.9);
+  }
+  .why-choose .content{
+    color: white !important;
+  }
+  .why-choose h3{
+    color: #BA1111 !important;
+  }
+  .about-text {
+    background-image: url("../img/section-img/choose/ann-fossa-5TFq8gMJWgg-unsplash.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .about-text::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 24, 0.9);
+  }
+ 
+  @media only screen and (min-width: 980px) {
+    .google-map {
+       margin-top: 60px;
+       white-space: nowrap;
+       width: 500px !important;
+       border: 2px solid#BA1111;
+      
+    }
+  }
  
