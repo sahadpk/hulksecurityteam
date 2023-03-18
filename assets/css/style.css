@@ -16309,14 +16309,14 @@ ul.blocks-gallery-grid li:before {
   .why-choose h3{
     color: #BA1111 !important;
   }
-  .about-text {
+  .about-text-area {
     background-image: url("../img/section-img/choose/ann-fossa-5TFq8gMJWgg-unsplash.png");
     background-size: cover;
     width: 100%;
     height: 100%;
     position: relative;
   }
-  .about-text::before{
+  .about-text-area::before{
     position: absolute;
     content: "";
     top: 0px;
