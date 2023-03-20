@@ -16335,4 +16335,28 @@ ul.blocks-gallery-grid li:before {
       
     }
   }
+  .about-text-main {
+    background-image: url("../img/section-img/blog/blog-01.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding-top: 20px;
+    color: white;
+  }
+  .about-text-main::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 24, 0.9);
+  }
+  .about-text-main h2 {
+   color: #BA1111;
+  }
+  .about-text-main p{
+   color: white;
+  }
  
