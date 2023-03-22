@@ -1,2 +1,1 @@
-
-<link rel="icon" type="image/png" href="./assets/img/section-img/blog/blog-02.png">
+ <link rel="icon" type="image/png" href="./assets/img/logo/hulklogotwo.png">
